@@ -1,0 +1,560 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Century Gothic;
+    background:#282828;
+    background-attachment: scroll; 
+}
+#wrapper 
+  {
+    position : relative;
+    width : 1360px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    border : 0px solid red;
+    background: transparent;
+}
+#login{
+   text-align: center;
+   margin-top: 47px;
+   text-decoration: 2px solid #f23436 underline;
+  
+}
+
+.container {
+width : 1360px;
+height : 83px;
+margin: 0;
+padding: 0;
+background-color:transparent;
+border-bottom: 5px solid #f23436;
+}
+
+.logo img{
+	margin-left: 30px;
+        margin-top: -19px;
+	float: left;
+	width: 136px;
+	height: auto;
+}
+.icon img{
+	
+	margin-top: -10px;
+	margin-left: 264px;
+	float: left;
+	width: 30px;
+	height:auto;
+}	
+
+.icon img:hover{	
+     transition: all 0.2s ease-in;
+     box-shadow: 0px 15px 50px #f23436;
+     background-color: #f23436;
+     color: #fff;
+     border-radius: 2.5px;
+
+
+}
+#navCircle{
+    margin: 0;
+    padding: 17px;
+}
+
+#navCircle li {
+margin : 0;
+padding : 0;
+display : inline;
+list-style-type : none;
+margin-top:5px;
+
+
+}
+
+#navCircle a:link, #navCircle a:visited {
+float: right;
+font-size : 15px;
+padding : 7px 55px;
+text-decoration : none;
+background : transparent;
+color:#FFF;
+margin-top:5px;
+margin-bottom: 5px;
+}
+
+#navCircle a:hover {
+       
+         transition: all 0.2s ease-in;
+	 box-shadow: 2px 3px 95px #f23436;
+         background-color: #f23436;
+         color: #fff;
+	 border-radius: 20px;
+}	
+
+#footer {
+margin : 0px 0 0 0;
+padding : 5px;
+background : #f23436;
+color : #fff;
+}
+#footerlog{
+    margin : 125px 0 0 0;
+    padding : 5px;
+    background : #f23436;
+    color : #fff;
+}
+
+
+.form-box{
+    width: 631px;
+    height: 550px;
+    position: relative;
+    margin: 3% auto;
+    background: #06060657;
+    padding: 5px;
+    border-radius: 30px;
+    overflow: hidden;
+    border: 2px solid #f23436;
+}
+
+
+.button-box{
+    width: 269px;
+    margin: 35px auto;
+    position: relative;
+    box-shadow: 0 0 16px 0px #f23436;
+    border-radius: 30px;
+    border: 1px solid #f23436;
+}
+
+.toggle-btn{
+    padding:  10px 29px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+    font-size: 19px;
+    color: white;
+}
+
+#btn{
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 138px;
+    height: 100%;
+    background: linear-gradient(to right,#f23436,#f23499);
+    border-radius: 30px;
+    transition: .5s;
+}
+.input-group{
+    top: 180px;
+    position: absolute;
+    width: 280px;
+    transition: .5s;
+}
+
+.input-field{
+    width: 100%;
+    padding: 10px 0;
+    margin: 8px 0;
+    border: 2px solid #fff;
+    outline: none;
+    background: transparent;
+    border-radius: 30px;
+    text-align: center;
+    color: #fff;
+    font-size: 17px;
+}
+
+.submit-btn{
+    width: 85%;
+    padding: 10px 29px;
+    cursor: pointer;
+    display: block;
+    margin: 30px auto;
+    background:  linear-gradient(to right,#f23436,#f23499);
+    border: 0;
+    outline:none;
+    border-radius: 30px;
+    font-size: 20px;
+    color: white;
+
+}
+
+#lbl-r{
+	color: white;
+	
+}
+
+#radio{
+	margin-left: 15%;
+    margin-top: 7%;
+}
+
+#lo{
+    left: 183px;
+}
+#re{
+    left: 650px;
+}
+
+#home{
+    width: auto;
+    height: 412px;
+    border-top: 5px solid #f23436;
+}
+#slider{
+   
+    width: 1360px;
+
+}
+
+#slider a{
+    position: absolute;
+}
+#slider a img{
+    width: 1360px;
+    height: 410px;
+}
+#slider a:nth-of-type(1){
+    animation-name: fader;
+    animation-delay: 4s;  
+    animation-duration: 1.5s; 
+    z-index: 20;
+}
+#slider a:nth-of-type(2){
+    z-index: 10;
+}
+#slider a:nth-of-type(n+3){
+    display: none;
+}
+@keyframes fader{
+    from{opacity:1.0;}
+    to{opacity:0.0};
+}
+
+.con-box{
+    width: 981px;
+    height: 550px;
+    position: relative;
+    margin: 5% auto;
+    background: #06060657;
+    padding: 5px;
+    border-radius: 30px;
+    border: 2px solid #f23436;
+	color: white;
+}
+
+.con-box-ab{
+    width: 981px;
+    height: 780px;
+    position: relative;
+    margin: 5% auto;
+    background: #06060657;
+    padding: 5px;
+    border-radius: 30px;
+    border: 2px solid #f23436;
+	color: white;
+}
+
+.con{
+	color: #f23436;
+}
+
+.con-abu{
+	color: #f23436;
+}
+
+.con-p{
+	padding: 5px 67px 20px 103px;
+}
+
+.con-in{
+	color: #f23436;
+}
+
+.con-dt{
+	padding: 5px 67px 20px 103px;
+}
+
+
+
+#flex-cont{
+	
+	display: flex;
+	height: 354px;
+	flex-wrap: wrap;
+	flex-direction: column;
+	align-content: flex-start;
+	background: #f23436;
+}
+
+#flex-cont>div{
+	
+	max-width: 300px;
+	margin: 9px 142px 0px 9px;
+	
+	
+}
+
+#m a{
+	width: 100%;
+	height: 300px;
+	margin: 5px;
+	
+	
+}
+
+#m a img {
+	height: 334px;
+	opacity: 1;
+	transition: .5s ease;
+}
+
+.hov1{
+position: absolute;
+top:53%;
+left: 17%;
+transform: translate(-50%, -50%);
+-ms-transform: translate(-50%, -50%);
+text-transform: uppercase;
+font-size: 50px;
+color:#fff;
+white-space: nowrap;
+overflow: hidden
+}
+
+.hov2{
+position: absolute;
+top:53%;
+left: 50%;
+transform: translate(-50%, -50%);
+-ms-transform: translate(-50%, -50%);
+text-transform: uppercase;
+font-size: 50px;
+color:#fff;
+white-space: nowrap;
+overflow: hidden
+}
+
+.hov3{
+position: absolute;
+top:53%;
+left: 83%;
+transform: translate(-50%, -50%);
+-ms-transform: translate(-50%, -50%);
+text-transform: uppercase;
+font-size: 50px;
+color:#fff;
+white-space: nowrap;
+overflow: hidden
+}
+
+.overlay{
+	opacity: 0;
+	transition: 0.5s ease;
+}
+
+#m a :hover {
+	opacity: 0.7;
+}
+
+#m a:hover .overlay{
+	opacity: 1;
+}
+
+#las a img {
+	width: 100%;
+	height: 430px;
+	opacity: 0.9;
+}
+
+#las a  :hover{
+	opacity: 1;
+}
+
+#las{
+	margin-top: 2px;
+}
+
+#las-abu img{
+	width: 50% ;
+	margin-left: 235px;
+}
+
+#con-box-cat{
+    width: 91%;
+    position: relative;
+    margin: 5% auto;
+    background: #06060657;
+    padding: 5px;
+    border: 2px solid #f23436;
+	margin-top: 73px;
+	
+	
+}
+#bbox{
+	height: 270px;
+	width: 345px;
+	margin: 8px 13px;
+    padding: 28px 17px;
+	text-align: center;
+	color: white;
+	
+	
+}
+
+#ibox{
+	height: 249px;
+	width: 345px;
+	margin:  -15px 0px;
+	overflow: hidden;
+	transition: transform 0.5s, filter 0.5s ease-in-out;
+    transform-origin: center center;
+    filter: brightness(100%);
+	display: flex;
+}
+
+#ibox:hover{
+     filter: brightness(115%);
+  transform: scale(1.2);
+	
+}
+
+
+
+
+#mbox{
+	width: 100%;
+	position: relative;
+	padding: 15px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	
+}
+
+#ibox img{
+	height: 210px;
+width: 190px;
+margin-left: 76px;
+margin-top: 17px;
+}
+
+
+#bbox:hover{
+	border: 1px solid #f23436;
+	border-radius: 15px;
+	transition: 0.7s ease;
+	color:#f23436;
+	box-shadow: 0px 0px 15px #f23436 ;
+	
+}
+
+#con-box-user{
+    width: 91%;
+    position: relative;
+    margin: 5% auto;
+    background: #06060657;
+    padding: 5px;
+    border: 2px solid #f23436;
+	margin-top: 73px;
+	
+	
+}
+#txtUserName{
+    
+    background: transparent;
+    border: 1px solid #fff;
+    color: white;
+    border-radius: 12px;
+    text-align: center;
+        
+    
+    
+}
+
+#txtPassword{
+     
+    background: transparent;
+    border: 1px solid #fff;
+    color: white;
+    border-radius: 12px;
+    text-align: center;
+        
+}
+
+#button{
+    height: 20px;
+    background: linear-gradient(to right,#f23436,#f23499);
+    border: 0px;
+    border-radius: 12px;
+    color: white;
+    cursor: pointer;
+}
+#txtUserid{
+    
+    background: transparent;
+    border: 1px solid #fff;
+    color: white;
+    border-radius: 12px;
+    text-align: center;
+        
+    
+    
+}
+
+#txtPass{
+    background: transparent;
+    border: 1px solid #fff;
+    color: white;
+    border-radius: 12px;
+    text-align: center;
+}
+
+#txtCid{
+    background: transparent;
+    border: 1px solid #fff;
+    color: white;
+    border-radius: 12px;
+    text-align: center;
+    
+}
+
+#txtName{ background: transparent;
+    border: 1px solid #fff;
+    color: white;
+    border-radius: 12px;
+    text-align: center;}
+
+#txtDesc{background: transparent;
+    border: 1px solid #fff;
+    color: white;
+    border-radius: 12px;
+    text-align: center;}
+#txtFile{background: transparent;
+    border: 1px solid #fff;
+    color: white;
+    border-radius: 12px;
+    text-align: center;}
+#txtPrice{background: transparent;
+    border: 1px solid #fff;
+    color: white;
+    border-radius: 12px;
+    text-align: center;    
+}
+#txtId{  background: transparent;
+    border: 1px solid #fff;
+    color: white;
+    border-radius: 12px;
+    text-align: center;
+}
+#txtPri {background: transparent;
+    border: 1px solid #fff;
+    color: white;
+    border-radius: 12px;
+    text-align: center;
+    
+}
